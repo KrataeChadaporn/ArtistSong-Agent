@@ -21,7 +21,7 @@ const run = async (userPrompt: string) => {
     const supportAgent = new SupportAgent(client);
     const supportResponse: string = await supportAgent.optionalSuggestions(musicResponse);
 
-    console.log('🧠 Concluding the decision...');
+    console.log('🧠 Support the decision...');
     const recommendAgent = new RecommenderAgent(client);
     const recommendResponse: string = await recommendAgent.conclude(musicResponse, supportResponse);
 
