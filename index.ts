@@ -29,6 +29,6 @@ const run = async (userPrompt: string) => {
     buildHtmlFileAndOpen(musicResponse, supportResponse, recommendResponse, embedUrl);
 };
 
-run("ขอฟังเพลงจาก BLACKPINK แนวสนุกๆ").then(() => {
+run("อยากฟังเพลงของ Bodyslam`").then(() => {
     console.log("✅ Done.");
 });
